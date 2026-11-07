@@ -155,4 +155,4 @@ Les tests sont écrits avec JUnit 5 (`src/test/java/brasserie/`) et couvrent les
 - Pas de contre-proposition de prix ni de prix conseillé (fonctionnalités secondaires).
 - `MainWindow` est une classe volumineuse : elle regroupe les 8 onglets de l'interface.
 - Les sauvegardes utilisent un format JSON simple lu ligne par ligne.
-- Polymorphisme sous-exploité
+- Héritage et Polymorphisme sous-exploités
