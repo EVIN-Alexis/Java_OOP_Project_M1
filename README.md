@@ -24,7 +24,7 @@ Projet final de programmation orientée objet en Java (M1).
 
 Maltown est un jeu solo local de gestion d'une microbrasserie indépendante. Le joueur achète des matières premières, lance des brassins, attend la fin de la fermentation, embouteille, puis vend sa bière à des bars et à des particuliers. Il doit équilibrer **trésorerie**, **stocks** et **réputation**, et peut investir dans des améliorations ou déposer le bilan.
 
-Le jeu fonctionne au tour par tour : le temps n'avance que lorsque le joueur clique sur « Terminer la journée ». Les règles de référence sont décrites dans le cahier des charges (`cahier_des_charges_basserie.pdf`).
+Le jeu fonctionne au tour par tour : le temps n'avance que lorsque le joueur clique sur « Terminer la journée ».
 
 ## 2. Lancer l'application
 
