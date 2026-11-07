@@ -1,0 +1,60 @@
+{
+  "name": "Ma Brasserie",
+  "money": 2259.76,
+  "currentDay": 21,
+  "reputation": 100,
+  "bankrupt": false,
+  "extraVatPurchased": false,
+  "improvedBottlingPurchased": false,
+  "qualityControlPurchased": false,
+  "ingredients": [
+    { "ingredientName": "Malt standard", "quantity": 0.0 },
+    { "ingredientName": "Malt spécial", "quantity": 0.0 },
+    { "ingredientName": "Houblon standard", "quantity": 0.56 },
+    { "ingredientName": "Houblon premium", "quantity": 0.25 },
+    { "ingredientName": "Levure standard", "quantity": 0.0 }
+  ],
+  "batches": [
+    { "vatId": 1, "style": "Blonde", "startDay": 1, "bottled": true },
+    { "vatId": 2, "style": "Rousse", "startDay": 1, "bottled": true },
+    { "vatId": 1, "style": "Rousse", "startDay": 4, "bottled": true },
+    { "vatId": 2, "style": "IPA", "startDay": 4, "bottled": true },
+    { "vatId": 1, "style": "Brune", "startDay": 7, "bottled": true },
+    { "vatId": 2, "style": "Rousse", "startDay": 7, "bottled": true },
+    { "vatId": 1, "style": "Brune", "startDay": 10, "bottled": true },
+    { "vatId": 2, "style": "IPA", "startDay": 10, "bottled": true },
+    { "vatId": 1, "style": "Rousse", "startDay": 13, "bottled": true },
+    { "vatId": 2, "style": "IPA", "startDay": 13, "bottled": true },
+    { "vatId": 1, "style": "Blonde", "startDay": 17, "bottled": true },
+    { "vatId": 2, "style": "Rousse", "startDay": 17, "bottled": true }
+  ],
+  "bottles": [
+    { "style": "Blonde", "quantity": 102 },
+    { "style": "IPA", "quantity": 204 },
+    { "style": "Rousse", "quantity": 76 },
+    { "style": "Brune", "quantity": 109 }
+  ],
+  "orders": [
+    { "customerName": "BDE ISEN", "customerType": "PROFESSIONAL", "preferredStyles": "Brune;Rousse;IPA", "minOrderQuantity": 24, "maxOrderQuantity": 150, "targetPrice": 1.1, "style": "Rousse", "quantity": 132, "pricePerBottle": 1.12, "deadlineDay": 18, "status": "ACCEPTED" },
+    { "customerName": "Mathéo LESAGE--GANTE", "customerType": "REGULAR", "preferredStyles": "Rousse", "minOrderQuantity": 6, "maxOrderQuantity": 24, "targetPrice": 1.5, "style": "Rousse", "quantity": 11, "pricePerBottle": 1.48, "deadlineDay": 18, "status": "ACCEPTED" },
+    { "customerName": "PDD", "customerType": "PROFESSIONAL", "preferredStyles": "Blonde;Rousse", "minOrderQuantity": 30, "maxOrderQuantity": 100, "targetPrice": 0.8, "style": "Blonde", "quantity": 94, "pricePerBottle": 0.88, "deadlineDay": 20, "status": "ACCEPTED" },
+    { "customerName": "Mathéo LESAGE--GANTE", "customerType": "REGULAR", "preferredStyles": "Rousse", "minOrderQuantity": 6, "maxOrderQuantity": 24, "targetPrice": 1.5, "style": "Rousse", "quantity": 23, "pricePerBottle": 1.56, "deadlineDay": 20, "status": "ACCEPTED" },
+    { "customerName": "Mathéo LESAGE--GANTE", "customerType": "REGULAR", "preferredStyles": "Rousse", "minOrderQuantity": 6, "maxOrderQuantity": 24, "targetPrice": 1.5, "style": "Rousse", "quantity": 19, "pricePerBottle": 1.48, "deadlineDay": 20, "status": "EXPIRED" },
+    { "customerName": "Mathéo LESAGE--GANTE", "customerType": "REGULAR", "preferredStyles": "Rousse", "minOrderQuantity": 6, "maxOrderQuantity": 24, "targetPrice": 1.5, "style": "Rousse", "quantity": 21, "pricePerBottle": 1.46, "deadlineDay": 20, "status": "EXPIRED" },
+    { "customerName": "PDD", "customerType": "PROFESSIONAL", "preferredStyles": "Blonde;Rousse", "minOrderQuantity": 30, "maxOrderQuantity": 100, "targetPrice": 0.8, "style": "Blonde", "quantity": 93, "pricePerBottle": 0.79, "deadlineDay": 22, "status": "ACCEPTED" },
+    { "customerName": "BDE ISEN", "customerType": "PROFESSIONAL", "preferredStyles": "Brune;Rousse;IPA", "minOrderQuantity": 24, "maxOrderQuantity": 150, "targetPrice": 1.1, "style": "Rousse", "quantity": 103, "pricePerBottle": 1.01, "deadlineDay": 22, "status": "ACCEPTED" },
+    { "customerName": "BDE ISEN", "customerType": "PROFESSIONAL", "preferredStyles": "Brune;Rousse;IPA", "minOrderQuantity": 24, "maxOrderQuantity": 150, "targetPrice": 1.1, "style": "Brune", "quantity": 86, "pricePerBottle": 1.09, "deadlineDay": 24, "status": "ACCEPTED" },
+    { "customerName": "Faluche", "customerType": "PROFESSIONAL", "preferredStyles": "IPA;Brune", "minOrderQuantity": 40, "maxOrderQuantity": 120, "targetPrice": 0.85, "style": "IPA", "quantity": 44, "pricePerBottle": 0.95, "deadlineDay": 24, "status": "ACCEPTED" }
+  ],
+  "financeRecords": [
+    { "financeDay": 17, "financeType": "EXPENSE", "financeAmount": 52.5, "financeDescription": "Achat de Malt standard" },
+    { "financeDay": 17, "financeType": "EXPENSE", "financeAmount": 30.0, "financeDescription": "Achat de Levure standard" },
+    { "financeDay": 17, "financeType": "EXPENSE", "financeAmount": 7.0, "financeDescription": "Achat de Malt spécial" },
+    { "financeDay": 19, "financeType": "REVENUE", "financeAmount": 36.4, "financeDescription": "Vente de 52 bouteilles de Blonde" },
+    { "financeDay": 21, "financeType": "EXPENSE", "financeAmount": 60.0, "financeDescription": "Frais hebdomadaires (loyer, eau, électricité, entretien)" },
+    { "financeDay": 21, "financeType": "REVENUE", "financeAmount": 73.47, "financeDescription": "Vente de 93 bouteilles de Blonde" },
+    { "financeDay": 21, "financeType": "REVENUE", "financeAmount": 104.03, "financeDescription": "Vente de 103 bouteilles de Rousse" },
+    { "financeDay": 21, "financeType": "REVENUE", "financeAmount": 93.74, "financeDescription": "Vente de 86 bouteilles de Brune" },
+    { "financeDay": 21, "financeType": "REVENUE", "financeAmount": 41.8, "financeDescription": "Vente de 44 bouteilles de IPA" }
+  ]
+}

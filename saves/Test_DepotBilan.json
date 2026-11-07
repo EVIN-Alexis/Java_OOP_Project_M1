@@ -1,0 +1,45 @@
+{
+  "name": "Test_DepotBilan",
+  "money": 568.61,
+  "currentDay": 21,
+  "reputation": 0,
+  "bankrupt": true,
+  "extraVatPurchased": false,
+  "improvedBottlingPurchased": false,
+  "qualityControlPurchased": false,
+  "ingredients": [
+    { "ingredientName": "Malt standard", "quantity": 0.0 },
+    { "ingredientName": "Malt spécial", "quantity": 8.0 },
+    { "ingredientName": "Houblon standard", "quantity": 9.67 },
+    { "ingredientName": "Houblon premium", "quantity": 10.0 },
+    { "ingredientName": "Levure standard", "quantity": 4.0 }
+  ],
+  "batches": [
+    { "vatId": 1, "style": "Blonde", "startDay": 1, "bottled": true },
+    { "vatId": 2, "style": "Rousse", "startDay": 1, "bottled": true }
+  ],
+  "bottles": [
+    { "style": "Blonde", "quantity": 172 },
+    { "style": "IPA", "quantity": 0 },
+    { "style": "Rousse", "quantity": 149 },
+    { "style": "Brune", "quantity": 0 }
+  ],
+  "orders": [
+    { "customerName": "Faluche", "customerType": "PROFESSIONAL", "preferredStyles": "IPA;Brune", "minOrderQuantity": 40, "maxOrderQuantity": 120, "targetPrice": 0.85, "style": "IPA", "quantity": 89, "pricePerBottle": 0.94, "deadlineDay": 20, "status": "EXPIRED" },
+    { "customerName": "Alexis EVIN", "customerType": "REGULAR", "preferredStyles": "Blonde;Brune", "minOrderQuantity": 3, "maxOrderQuantity": 18, "targetPrice": 0.7, "style": "Blonde", "quantity": 3, "pricePerBottle": 0.67, "deadlineDay": 20, "status": "EXPIRED" },
+    { "customerName": "Faluche", "customerType": "PROFESSIONAL", "preferredStyles": "IPA;Brune", "minOrderQuantity": 40, "maxOrderQuantity": 120, "targetPrice": 0.85, "style": "Brune", "quantity": 79, "pricePerBottle": 0.91, "deadlineDay": 22, "status": "PENDING" },
+    { "customerName": "BDE ISEN", "customerType": "PROFESSIONAL", "preferredStyles": "Brune;Rousse;IPA", "minOrderQuantity": 24, "maxOrderQuantity": 150, "targetPrice": 1.1, "style": "IPA", "quantity": 54, "pricePerBottle": 1.02, "deadlineDay": 21, "status": "PENDING" },
+    { "customerName": "PDR", "customerType": "PROFESSIONAL", "preferredStyles": "Rousse;Brune", "minOrderQuantity": 50, "maxOrderQuantity": 80, "targetPrice": 0.95, "style": "Rousse", "quantity": 76, "pricePerBottle": 1.01, "deadlineDay": 23, "status": "PENDING" }
+  ],
+  "financeRecords": [
+    { "financeDay": 1, "financeType": "EXPENSE", "financeAmount": 52.5, "financeDescription": "Achat de Malt standard" },
+    { "financeDay": 1, "financeType": "EXPENSE", "financeAmount": 35.0, "financeDescription": "Achat de Malt spécial" },
+    { "financeDay": 1, "financeType": "EXPENSE", "financeAmount": 250.0, "financeDescription": "Achat de Houblon standard" },
+    { "financeDay": 1, "financeType": "EXPENSE", "financeAmount": 400.0, "financeDescription": "Achat de Houblon premium" },
+    { "financeDay": 1, "financeType": "EXPENSE", "financeAmount": 50.0, "financeDescription": "Achat de Levure standard" },
+    { "financeDay": 4, "financeType": "REVENUE", "financeAmount": 36.11, "financeDescription": "Vente de 23 bouteilles de Rousse" },
+    { "financeDay": 7, "financeType": "EXPENSE", "financeAmount": 60.0, "financeDescription": "Frais hebdomadaires (loyer, eau, électricité, entretien)" },
+    { "financeDay": 14, "financeType": "EXPENSE", "financeAmount": 60.0, "financeDescription": "Frais hebdomadaires (loyer, eau, électricité, entretien)" },
+    { "financeDay": 21, "financeType": "EXPENSE", "financeAmount": 60.0, "financeDescription": "Frais hebdomadaires (loyer, eau, électricité, entretien)" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Test2",
+  "money": 1500.0,
+  "currentDay": 1,
+  "reputation": 25,
+  "bankrupt": false,
+  "extraVatPurchased": false,
+  "improvedBottlingPurchased": false,
+  "qualityControlPurchased": false,
+  "ingredients": [
+    { "ingredientName": "Malt standard", "quantity": 0.0 },
+    { "ingredientName": "Malt spécial", "quantity": 0.0 },
+    { "ingredientName": "Houblon standard", "quantity": 0.0 },
+    { "ingredientName": "Houblon premium", "quantity": 0.0 },
+    { "ingredientName": "Levure standard", "quantity": 0.0 }
+  ],
+  "batches": [
+  ],
+  "bottles": [
+    { "style": "Blonde", "quantity": 0 },
+    { "style": "IPA", "quantity": 0 },
+    { "style": "Rousse", "quantity": 0 },
+    { "style": "Brune", "quantity": 0 }
+  ],
+  "orders": [
+  ],
+  "financeRecords": [
+  ]
+}
