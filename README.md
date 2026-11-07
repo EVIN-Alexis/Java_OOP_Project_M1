@@ -30,16 +30,7 @@ Le jeu fonctionne au tour par tour : le temps n'avance que lorsque le joueur cli
 
 **Prérequis** : Java 17 ou supérieur, Maven 3.x (ou IntelliJ IDEA). Aucune bibliothèque externe pour le jeu : l'interface utilise Swing, inclus dans le JDK. JUnit 5 sert uniquement aux tests.
 
-**Depuis IntelliJ IDEA** : ouvrir le dossier du projet (le `pom.xml` est détecté), puis lancer la classe `brasserie.app.Main`.
-
-**Depuis un terminal**, à la racine du projet :
-
-```bash
-mvn compile
-java -cp target/classes brasserie.app.Main
-```
-
-> Lancer le jeu **depuis la racine du projet** : le dossier `saves/` est un chemin relatif.
+**Depuis IntelliJ IDEA** : ouvrir le dossier du projet, puis lancer la classe `brasserie.app.Main`.
 
 ## 3. Fonctionnalités principales
 
